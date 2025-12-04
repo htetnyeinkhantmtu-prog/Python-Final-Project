@@ -59,7 +59,7 @@ def login_interface():
                 if valid:
                     break
                 print(msg)
-
+            display_password_requirements()
             while True:
                 password = input("Choose a password: ")
                 confirm = input("Confirm password: ")
@@ -95,3 +95,4 @@ def login_interface():
 
 
 login_interface()
+
