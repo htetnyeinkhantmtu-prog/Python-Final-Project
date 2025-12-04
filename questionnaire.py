@@ -11,7 +11,7 @@ def questionnaire(username):
     zodiac = input("What is your zodiac sign?: ").lower()
 
     morning_or_night = input(
-        "Are you a morning person or a night person?: ").lower()
+        "Are you a morning person or a night person? Type morning or night: ").lower()
 
     music = int(input(
         "What type of music do you prefer? Choose one number:\n"
