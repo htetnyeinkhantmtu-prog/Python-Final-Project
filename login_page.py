@@ -30,7 +30,6 @@ def main_menu(username):
 
         elif choice == "2":
             display_results(username)
-            break
 
         elif choice == "3":
             # Logout
