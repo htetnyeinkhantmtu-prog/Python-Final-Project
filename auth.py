@@ -55,7 +55,7 @@ def register(username, password):
         "password_hash": password_hash,
         "failed_attempts": 0,
         "lock_until": None,
-        "answers": [],
+        "questionnaire": [],
         "profile_complete": False
     })
 
